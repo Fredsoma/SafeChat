@@ -1,0 +1,60 @@
+
+.tips-container {
+  padding: 1.5rem;
+  color: #e0e0e0;
+}
+
+.tips-container h2 {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.tips-list {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+.tip-item {
+  margin-bottom: 0.5rem;
+  background-color: #1f1f2e;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+}
+
+
+/*  ─── Responsive Tweaks ─── */
+
+/* Tablet Portrait (≤ 768px) */
+@media (max-width: 768px) {
+  .tips-container {
+    padding: 1.25rem;
+  }
+
+  .tips-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .tip-item {
+    font-size: 0.95rem;
+    padding: 0.65rem 0.9rem;
+  }
+}
+
+/* Phone Portrait (≤ 640px) */
+@media (max-width: 640px) {
+  .tips-container {
+    padding: 1rem;
+  }
+
+  .tips-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .tip-item {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+

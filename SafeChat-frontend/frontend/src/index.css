@@ -1,0 +1,26 @@
+
+
+@import url('https://unpkg.com/leaflet@1.9.3/dist/leaflet.css');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: #0f0f1a;
+  color: #e0e0e0;
+}
+
+
+/*  ─── Responsive Tweaks ─── */
+
+/* Adjust base font-size on narrow screens */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px; /* Slightly smaller base font */
+  }
+}

@@ -1,0 +1,35 @@
+
+.map-page-container {
+  padding: 1.5rem;
+  color: #e0e0e0;
+}
+
+.map-page-container h2 {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.map-page-container p {
+  margin-bottom: 1rem;
+  color: #1a1919;
+}
+
+.leaflet-map {
+  height: 500px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+  .leaflet-map {
+    height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .leaflet-map {
+    height: 300px;
+  }
+}

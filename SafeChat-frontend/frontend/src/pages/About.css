@@ -1,0 +1,44 @@
+
+.about-container {
+  background-color: #121223;
+  color: #e0e0e0;
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+
+.about-container h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.about-container p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+/*  ─── Responsive Tweaks ─── */
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-container p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+

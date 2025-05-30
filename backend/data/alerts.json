@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Road Closure: Meridian St. at 34th St.",
+    "description": "Meridian Street is closed between 34th and 35th due to water main repairs. Expect delays until 5:00 PM.",
+    "timestamp": "2025-05-30T08:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Severe Thunderstorm Warning",
+    "description": "A severe thunderstorm warning is in effect for Indianapolis until 6:00 PM. Stay indoors and avoid flooding areas.",
+    "timestamp": "2025-05-30T07:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Community Watch Meeting Tonight",
+    "description": "The Eastside Neighborhood Watch meets at 7:00 PM in the Community Center (123 Main St.). All are welcome.",
+    "timestamp": "2025-05-29T22:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Heat Advisory",
+    "description": "High temperatures (95°F+) expected through Thursday evening. Remember to stay hydrated and check on neighbors.",
+    "timestamp": "2025-05-30T06:00:00.000Z"
+  }
+]

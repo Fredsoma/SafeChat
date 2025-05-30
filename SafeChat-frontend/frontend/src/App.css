@@ -1,0 +1,40 @@
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  background: #0f0f1a;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;
+  color: #e0e0e0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+
+/*  ─── Responsive Tweaks ─── */
+
+/* Tablet Portrait (≤ 768px) */
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
+
+/* Phone Portrait (≤ 640px) */
+@media (max-width: 640px) {
+  .app-main {
+    padding: 0.75rem;
+  }
+}

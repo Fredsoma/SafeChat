@@ -1,0 +1,88 @@
+
+
+.contacts-container {
+  padding: 1.5rem;
+  color: #e0e0e0;
+}
+
+.contacts-container h2 {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  background-color: #1f1f2e;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-name {
+  font-weight: bold;
+  color: #e100ff;
+}
+
+.contact-phone {
+  color: #f0f0f0;
+}
+
+/*  ─── Responsive Tweaks ─── */
+
+/* Tablet Portrait (≤ 768px) */
+@media (max-width: 768px) {
+  .contacts-container {
+    padding: 1.25rem;
+  }
+
+  .contacts-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-item {
+    padding: 0.65rem 0.9rem;
+  }
+
+  .contact-name {
+    font-size: 0.95rem;
+  }
+
+  .contact-phone {
+    font-size: 0.95rem;
+  }
+}
+
+/* Phone Portrait (≤ 640px) */
+@media (max-width: 640px) {
+  .contacts-container {
+    padding: 1rem;
+  }
+
+  .contacts-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .contact-name {
+    font-size: 0.9rem;
+  }
+
+  .contact-phone {
+    font-size: 0.9rem;
+  }
+}

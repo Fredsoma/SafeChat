@@ -1,0 +1,82 @@
+.alerts-container {
+  padding: 1.5rem;
+  color: #e0e0e0;
+}
+
+.alerts-container h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.alerts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .alerts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.alert-card {
+  background-color: #1f1f2e;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.alert-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #e100ff;
+}
+
+.alert-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.alert-time {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  text-align: right;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .alerts-grid {
+    grid-template-columns: 1fr;
+  }
+  .alert-card {
+    padding: 0.75rem;
+  }
+  .alert-title {
+    font-size: 1.15rem;
+  }
+  .alert-desc {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .alerts-container {
+    padding: 1rem;
+  }
+  .alert-card {
+    padding: 0.5rem;
+  }
+  .alert-title {
+    font-size: 1rem;
+  }
+  .alert-desc {
+    font-size: 0.85rem;
+  }
+  .alert-time {
+    font-size: 0.8rem;
+  }
+}

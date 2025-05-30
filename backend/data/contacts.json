@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Emergency (Police, Fire, Ambulance)",
+    "phone": "911"
+  },
+  {
+    "id": 2,
+    "name": "Indianapolis Metropolitan Police (Non-Emergency)",
+    "phone": "(317) 327-3811"
+  },
+  {
+    "id": 3,
+    "name": "Indianapolis Fire Department (Non-Emergency)",
+    "phone": "(317) 327-3473"
+  },
+  {
+    "id": 4,
+    "name": "Poison Control Center",
+    "phone": "1-800-222-1222"
+  },
+  {
+    "id": 5,
+    "name": "Indiana 211 (General Information & Referrals)",
+    "phone": "211"
+  },
+  {
+    "id": 6,
+    "name": "Suicide & Crisis Lifeline",
+    "phone": "988"
+  },
+  {
+    "id": 7,
+    "name": "National Domestic Violence Hotline",
+    "phone": "1-800-799-7233 (SAFE)"
+  },
+  {
+    "id": 8,
+    "name": "Mental Health Crisis Hotline (Central Indiana)",
+    "phone": "(317) 251-7575"
+  }
+]

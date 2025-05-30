@@ -1,0 +1,59 @@
+
+.contact-container {
+  background-color: #121223;
+  color: #e0e0e0;
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+
+.contact-container h2 {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-container a {
+  color: #7f00ff;
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+/*  ─── Responsive Tweaks ─── */
+
+/* Tablet Portrait (≤ 768px) */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1.5rem;
+  }
+
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Phone Portrait (≤ 640px) */
+@media (max-width: 640px) {
+  .contact-container {
+    padding: 1rem;
+  }
+
+  .contact-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-container p {
+    font-size: 0.9rem;
+  }
+}
