@@ -234,9 +234,6 @@ Static Serve /uploads/<filename>
 Serves uploaded (blurred) images publicly.
 
 📂 Folder Structure
-pgsql
-Copier
-Modifier
 public-safety-chatbot/
 ├── backend/
 │   ├── data/
